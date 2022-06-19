@@ -1,0 +1,43 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: var(--Principale);
+    
+  }
+
+ .logo {
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 25%;
+    cursor: pointer;
+  }
+
+  .itemContainer {
+    margin-right:0 ;
+    display: flex;
+    align-items: right;
+    min-width: 25%;
+    
+    
+  }
+ .item {
+    display: flex; 
+    margin: 25px;
+    margin-right: 0;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+  
+ }
+ .item:hover {
+   color: #f0f4ef;
+   font-size: 20px;
+ }
+
+ 
+ .logouticon {
+   width: 30px;
+ }
+

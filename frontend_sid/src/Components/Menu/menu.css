@@ -1,0 +1,134 @@
+
+
+  h1.title {
+      display: flex;
+      z-index: 2;
+      flex-direction: column;
+      color: var(--Principale);
+      margin-top: 0px;
+      padding-bottom: 70px;
+  }
+  h2 {
+    color: var(--Principale);
+    font-size: 30px; 
+    padding-top: 5px;
+  }
+  h4{
+    font-size: 15px;
+  }
+  .app-details-container {
+    text-align: start;
+    margin-left: 100px;
+  }
+
+  .menubutton{
+    backface-visibility: hidden; 
+    border-width: 0; 
+    box-sizing: border-box; 
+    cursor: pointer; 
+    margin: 20px;
+    font-size: 20px;
+    padding: 8px 20px;
+    width: 450px;
+    line-height: 30px;
+    display: flex;
+    background-image: linear-gradient(to right, #948E99 0%, var(--Principale) 51%, #948E99  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+   
+  }
+          
+             
+
+  .menubutton:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .maincontainermenu{
+    display: flex;
+ }
+ 
+ .section1menu{
+     width: 50%;
+     height: 50%;
+     margin-left: 20px;
+ }
+ .section2menu{
+     width: 50%;
+     height: 50%;
+     background-color: #f0f4ef;
+     border-radius: 25px;
+     margin-right: 50px;
+     margin-top: 75px;
+     padding-left: 35px;
+     position: relative;
+  
+ }
+ @media only screen and (max-width: 700px) {
+  .section1menu{
+    height: 100%;
+    left:-10px;
+}
+.section2menu{
+  
+  left:25px;
+  margin-top: 0px;
+  padding-bottom: 25px;
+  width: 400px;
+  
+
+  }
+.menubutton {
+  height: 35px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  left:-10px;
+  width: 400px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+  .section1menu{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding-left: 30px;
+}
+.section2menu{
+  margin-top: 0px;
+  margin-left: 0px;
+
+  }
+  .maincontainermenu{
+    display: block;
+ }
+
+}
+
+
+ 
+  .titlecontainer {
+    background-image: url(../../assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  .minititle {
+    text-align: start;
+    font-size: 20px;
+  }
+  .minititle2 {
+    text-align: start;
+    font-size: 15px;
+  }

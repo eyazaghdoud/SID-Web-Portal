@@ -1,0 +1,111 @@
+.delete-btn{
+    cursor: pointer;
+}
+  
+.buttonlist{
+    appearance: button; 
+    border-radius: 6px; 
+    border-width: 0; 
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box; 
+    color: #fff; 
+    cursor: pointer; 
+    margin: 20px;
+    background: var(--Principale);
+    font-size: 20px;
+    padding: 8px 20px;
+    width: 350px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #948E99 0%, var(--Principale) 51%, #948E99  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;          
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+  }
+          
+
+
+  .buttonlist:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  #title {
+    color: black;
+    margin-top: 0;
+  }
+
+  .containerlist {
+    display: flex;
+    width: 100%;
+    margin-left: -40px;
+  }
+  
+  .containerlist1, .containerlist2 {
+    flex: 1;
+    
+  }
+  .containerlist1   {
+     margin-left: -50px;
+     display: flex;
+     flex-direction: column;
+  }
+  .containerlist2{
+    margin-left: -15%;
+    width: 60%;
+  }
+
+  .trashimg {
+    width: 32px;
+
+  }
+
+  .btntrash {
+    background-color : #CB4140;
+    border-radius: 15px;
+    border: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+ td {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-color:  #f0f4ef;
+
+  }
+  th {
+    font-size: 18px;
+    padding-bottom: 10px;
+    background-color: #f0f4ef;
+  }
+  select {
+    min-width: 0;
+    max-width: 20ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }
+
+  table 
+{
+    table-layout:fixed;
+    width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+ select {
+  font-size: 10px;
+ }
+
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.App {
+  text-align: center;
+  margin: 0;
+}
+:root {
+  --Principale: #3e1f53;
+  --Secondaire: #f0f4ef;
+}

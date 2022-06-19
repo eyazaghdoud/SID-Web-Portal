@@ -1,0 +1,107 @@
+
+
+  .content {
+      width: 320px;
+      height:380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px ;
+    margin-left: 750px;
+    background-color: #c2c2e9;
+    border: 1px solid #dfdfdf;
+    padding: 40px 20px;
+    border-radius: 5px;
+  }
+
+ 
+  p {
+    color: black;
+  }
+  
+
+  
+  .loginField {
+     margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 250px;
+  }
+
+  input {
+      height: 25px;
+      width: 300px;
+     
+  }
+  .loginFormBtn{
+
+    backface-visibility: hidden; 
+    background-color: var(--Principale); 
+    border-radius: 6px; 
+    border-width: 0; 
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box; 
+    color: #fff; 
+    cursor: pointer; 
+    width: 210px;
+    height: 40px;
+    margin-top: 30px;
+  
+}
+h1 {
+  color: var(--Principale);
+  font-size: 50px; 
+  padding-top: 50px;
+}
+.loginFormBtn {
+  margin-bottom: 50px;
+}
+
+.maincontainer {
+  display: flex;
+  width: 100%;
+}
+
+.section1, .section2 {
+  flex: 1;
+  margin-top: 40px;
+  
+}
+
+
+.formContainer {
+ 
+background-color: #f0f4ef;
+border-radius: 25px;
+margin: 0px 50px 0px 50px;
+padding-top: 0px;
+}
+
+.loginForm {
+  display: inline-block;
+}
+
+.section1 {
+  background-image: url('C:\Users\HP I5\Desktop\pfe\SID\frontend_sid\src\assets\img1.png');
+  background-repeat: no-repeat, repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+
+
+label {
+  margin-left: -140px;
+  color: var(--Principale); 
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: #f0f4ef;
+  border-radius: 25px;
+  border-color: var(--Principale);
+  padding-left: 10px;
+  padding-right: 10px;
+}
